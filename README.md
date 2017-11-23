@@ -4,7 +4,7 @@
 
 1. Run `./src/data-pre-processing.ipynb`
 
-Change parameters sa below:
+Change parameters as below:
 
 ```python
 # Currency use in comparison to Bitcoin.
