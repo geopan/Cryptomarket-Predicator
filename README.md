@@ -3,6 +3,18 @@
 # Run with jupyter
 
 1. Run `./src/data-pre-processing.ipynb`
+
+Change parameters sa below:
+
+```python
+# Currency use in comparison to Bitcoin.
+currency = 'ETH'
+# Time Interval (oneMin, fiveMin, halfHour, hour, day...).
+tickInterval = 'fiveMin'
+# Row limit to process.
+limit = 2000
+```
+
 2. Run `./src/prediction.ipynb`
 
 # Data
